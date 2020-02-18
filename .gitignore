@@ -1,0 +1,21 @@
+# compiled files
+__pycache__/
+*.py[cod]
+
+# ide files
+.idea/
+.vscode/
+
+# virtualenv
+venv/
+
+# unittest / coverage
+.cache/
+.pytest_cache/
+.cov_html/
+.coverage
+
+# jupyter
+.ipynb_checkpoints/
+
+# project files
