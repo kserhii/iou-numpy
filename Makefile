@@ -32,5 +32,5 @@ update-dev: update
 
 # ----- Tests -----
 
-test: update
+test: update-dev
 	@pytest iou.py -vv tests.py --flake8

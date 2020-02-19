@@ -48,9 +48,13 @@ rect_iou = iou(rect_batch1, rect_batch2)
 
 ## Run tests
 
-TODO
+Unit tests are placed int the `tests.py`. Just call `make test` command to run the tests
+
+```bash
+make test
+```
 
 ## Alternative implementations
 1. <https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/>
 2. <https://medium.com/@venuktan/vectorized-intersection-over-union-iou-in-numpy-and-tensor-flow-4fa16231b63d>
- 
+3. <https://codereview.stackexchange.com/questions/204017/intersection-over-union-for-rotated-rectangles>
